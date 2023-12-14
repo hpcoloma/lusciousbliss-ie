@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: BIZ UDGothic
+- Font Author: Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
+- Font Source: http://fonts.gstatic.com/s/bizudgothic/v9/daaASTouBF7RUjnbt8p3LuKVCSxZ-xTQZMhbaA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
