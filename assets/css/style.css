@@ -94,6 +94,7 @@ main {
 
     /*make main element to take up any surplus space*/
     flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 
