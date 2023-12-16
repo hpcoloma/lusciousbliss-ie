@@ -31,11 +31,32 @@ header {
     box-shadow: 0 3px 3px #4C275C;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 h1 {
     font-family: 'PT Serif', serif;
+    color: #4C275C
 }
 
+#menu {
+    font-size: 100%;
+    list-style-type: none;
+    
+}
+#menu >li{
+    margin-bottom: 0.5em;
+}
+#menu a:hover {
+    font-weight: bold;
+}
+
+.active {
+    border-bottom: 2px solid #4C275C;
+}
 
 /*Main Content*/
 main {
