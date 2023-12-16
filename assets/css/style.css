@@ -14,9 +14,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+
     /* Generic Project Styles */
-    color:#000000;
+    color: #000000;
     font-family: 'PT Serif', serif;
 
 }
@@ -39,6 +39,14 @@ header a {
     color: inherit;
 }
 
+#logo-img {
+    height: 20%;
+    width: 20%;
+}
+
+#logo {
+    display: none;
+}
 
 h1 {
     font-family: 'PT Serif', serif;
@@ -48,11 +56,13 @@ h1 {
 #menu {
     font-size: 100%;
     list-style-type: none;
-    
+
 }
-#menu >li{
+
+#menu>li {
     margin-bottom: 0.5em;
 }
+
 #menu a:hover {
     font-weight: bold;
 }
@@ -97,8 +107,34 @@ main {
     margin-top: 50px;
 }
 
-
 /*Footer*/
 footer {
     background-color: blue;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
