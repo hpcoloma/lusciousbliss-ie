@@ -110,7 +110,7 @@ main {
 
 /*Footer*/
 footer {
-    background-color: blue;
+    background-color: whitesmoke;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -146,7 +146,6 @@ footer {
 
 /* Media query: larger screen (992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-            font-weight: bold;
+    
         }
 }
