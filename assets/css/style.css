@@ -24,7 +24,13 @@ body {
 /*Header*/
 header {
     background-color: whitesmoke;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 3px #4C275C;
 }
+
 
 h1 {
     font-family: 'PT Serif', serif;
