@@ -23,7 +23,11 @@ body {
 
 /*Header*/
 header {
-    background-color: purple;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
 }
 
 
