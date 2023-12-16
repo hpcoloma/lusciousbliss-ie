@@ -109,8 +109,12 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: whitesmoke;
+#social-networks {
+    text-align: center;
+    display: flex;
+    padding: 20px 0;
+    list-style-type: none;
+    justify-content:space-around;
 }
 
 /* Media query: tablets and larger (768px and up) */
