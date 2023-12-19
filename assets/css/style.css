@@ -1,5 +1,5 @@
 /*Google Fonts Import*/
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /*Asterisk Wildcard selector to override default style addedd by the browser*/
 * {
@@ -7,7 +7,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 
 /* General; Stules */
 body {
@@ -17,18 +16,24 @@ body {
 
     /* Generic Project Styles */
     color: #000000;
-    font-family: 'PT Serif', serif;
+    font-family: "PT Serif", serif;
 
+    h1,
+    h2,
+    h3 {
+        font-family: "PT Serif", serif;
+        color: #4c275c;
+    }
 }
 
 /*Header*/
 header {
-    background-color: #CC9901;
+    background-color: #cc9901;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px #4C275C;
+    box-shadow: 0 3px 3px #4c275c;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -43,22 +48,15 @@ header a {
     display: block;
     height: 35%;
     width: 35%;
-
 }
 
 #logo {
     display: none;
 }
 
-h1 {
-    font-family: 'PT Serif', serif;
-    color: #4C275C
-}
-
 #menu {
     font-size: 100%;
     list-style-type: none;
-
 }
 
 #menu>li {
@@ -70,21 +68,19 @@ h1 {
 }
 
 .active {
-    border-bottom: 2px solid #4C275C;
+    border-bottom: 2px solid #4c275c;
 }
 
 /*Navbar styles with dropdown*/
 nav {
     position: absolute;
     display: none;
-    background-color: #CC9901;
+    background-color: #cc9901;
     width: 100%;
     padding: 0 1rem;
     left: 0;
-    box-shadow: 0 3px 3px #4C275C;
+    box-shadow: 0 3px 3px #4c275c;
     top: 100%;
-
-
 }
 
 /* Nav Toggle*/
@@ -102,7 +98,7 @@ nav {
 
 /*Main Content*/
 main {
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
 
     /*make main element to take up any surplus space*/
     flex: 1 0 auto;
@@ -114,13 +110,29 @@ main {
     height: 600px;
     width: 100%;
     background: url("/assets/images/hero-image.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* RGB values set for opacity*/
+    background-color: rgb(46,24,52, 0.8);
+    font-size: 135%; 
+    position: absolute;
+    bottom: 40px;
+    width: 85%;
+    min-height: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#cover-text >h2, #cover-text > h3 {
+    color: #F5f5f5;  
 }
 
 
 /*Footer*/
 footer {
-    background-color: #CC9901;
-
+    background-color: #cc9901;
 }
 
 .footer-logo {
@@ -128,13 +140,12 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
-
 }
 
 #footer-name {
     width: 20%;
     /*border: 1px solid #000000;*/
-    color:
+    color: ;
 }
 
 #footer-address {
@@ -149,10 +160,7 @@ footer {
     font-size: 160%;
 
     justify-content: space-between;
-
 }
-
-
 
 #social-networks {
     display: flex;
@@ -160,9 +168,6 @@ footer {
     align-items: center;
     list-style-type: none;
     text-align: center;
-
-
-
 }
 
 #social-networks>i {}
@@ -177,7 +182,6 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
 
     #menu {
@@ -186,7 +190,6 @@ footer {
 
     #menu>li {
         padding-left: 1rem;
-
     }
 
     .nav-toggle-label {
@@ -204,6 +207,13 @@ footer {
         margin-top: 112px;
     }
 
+    /*Hero*/
+    #cover-text {
+        width: 350px;
+        right: 15px;
+        font-size: 150%;
+        text-align: right;
+    }
 
 }
 
@@ -214,7 +224,6 @@ footer {
         font-weight: bold;
     }
 }
-
 
 /*Media query: smaller screen (max of 940px) */
 @media screen and (max-width: 940px) {
@@ -233,6 +242,5 @@ footer {
     #social-networks {
         display: flex;
         justify-content: space-evenly;
-
     }
 }
