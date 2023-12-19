@@ -125,9 +125,20 @@ main {
     padding-right: 5px;
 }
 
-#cover-text >h2, #cover-text > h3 {
+#cover-text >h2, #cover-text > h3, #cover-text >p {
     color: #F5f5f5;  
 }
+#cover-text>p {
+    font-size: 80%;
+}
+
+/*Best Sellers*/
+#best-seller {
+    width: 90%;
+    background-color: pink;
+    margin-top: 100px auto;
+}
+
 
 
 /*Footer*/
