@@ -17,14 +17,14 @@ body {
     /* Generic Project Styles */
     color: #000000;
     font-family: "PT Serif", serif;
-
+}
     h1,
     h2,
     h3 {
         font-family: "PT Serif", serif;
         color: #4c275c;
     }
-}
+
 
 /*Header*/
 header {
@@ -102,7 +102,7 @@ main {
 
     /*make main element to take up any surplus space*/
     flex: 1 0 auto;
-    margin-top: 136px;
+    margin-top: 100px;
 }
 
 /* Hero Section */
@@ -140,11 +140,11 @@ main {
 #testimonials {
     width: 100%;
     background-color: rgb(46, 24, 52);
-    margin-top: 200px auto;
+    margin-top: 100px auto;
     display: block;
     align-items: center;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     color: #F5f5f5;
 }
 
@@ -160,20 +160,18 @@ main {
     margin-top: 2px;
 }
 
-#best-products {
+#best-products, #testi {
     display: block;
     padding-top: 5px;
     
 
 }
 
-#best-seller>div {
-    /*border: 1px solid #000000;
-    margin: 5px 0;*/
-}
+
 #testimonials {
     display:block;
     align-content: center;
+   
 }
 #testi-cover {
     height: 75vw;
@@ -212,18 +210,6 @@ main {
 }
 
 
-/*
-#testi-text {
-    display: none;
-}
-
-#testi-cover:hover + #texti-text {
-    display: block;
-}
-
-*/
-
-
 
 /*Footer*/
 footer {
@@ -240,7 +226,7 @@ footer {
 #footer-name {
     width: 20%;
     /*border: 1px solid #000000;*/
-    color: ;
+    
 }
 
 #footer-address {
@@ -253,7 +239,7 @@ footer {
     width: 20%;
     /*border: 1px solid #000000;*/
     font-size: 160%;
-
+    display: block;
     justify-content: space-between;
 }
 
@@ -265,7 +251,6 @@ footer {
     text-align: center;
 }
 
-#social-networks>i {}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -318,14 +303,18 @@ footer {
 }
 
 #bschoco, #bsube, #bscrinckles {
-    margin: 20px;
+    margin: 10px;
 }
 
+.bsphoto {
+    height: 200px;
+    width: 200px;
+}
 #testi {
     display: flex;
     }
 
-}
+
 
 /* Media query: larger screen (992px and up) */
 @media screen and (min-width: 992px) {
