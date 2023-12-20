@@ -18,12 +18,13 @@ body {
     color: #000000;
     font-family: "PT Serif", serif;
 }
-    h1,
-    h2,
-    h3 {
-        font-family: "PT Serif", serif;
-        color: #4c275c;
-    }
+
+h1,
+h2,
+h3 {
+    font-family: "PT Serif", serif;
+    color: #4c275c;
+}
 
 
 /*Header*/
@@ -160,26 +161,28 @@ main {
     margin-top: 2px;
 }
 
-#best-products, #testi {
+#best-products,
+#testi {
     display: block;
     padding-top: 5px;
-    
+
 
 }
 
 
 #testimonials {
-    display:block;
+    display: block;
     align-content: center;
-   
+
 }
+
 #testi-cover {
     height: 75vw;
     width: 75vw;
     background: url("/assets/images/testi1.jpg") no-repeat top center/cover;
     /*makes the square image circle*/
     border-radius: 50%;
-   margin: auto;
+    margin: auto;
     max-height: 300px;
     max-width: 300px;
 
@@ -208,7 +211,20 @@ main {
     max-width: 300px;
 
 }
+/*Footer*/
 
+
+
+#footer-social {
+    width: 100%;
+}
+
+ #social-networks {
+     display: flex;
+     justify-content: space-evenly;
+     list-style-type: none;
+     font-size: 200%;
+ }
 
 
 /*Footer*/
@@ -216,40 +232,7 @@ footer {
     background-color: #cc9901;
 }
 
-.footer-logo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
 
-#footer-name {
-    width: 20%;
-    /*border: 1px solid #000000;*/
-    
-}
-
-#footer-address {
-    width: 20%;
-    /*border: 1px solid #000000;*/
-    font-size: smaller;
-}
-
-#footer-social {
-    width: 20%;
-    /*border: 1px solid #000000;*/
-    font-size: 160%;
-    display: block;
-    justify-content: space-between;
-}
-
-#social-networks {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    text-align: center;
-}
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -294,52 +277,97 @@ footer {
         font-size: 150%;
         text-align: right;
     }
-/*Best Seller*/
-#best-products {
+
+    /*Best Seller*/
+    #best-products {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    #bschoco,
+    #bsube,
+    #bscrinckles {
+        margin: 20px;
+    }
+
+    .bsphoto {
+        height: 200px;
+        width: 200px;
+    }
+
+    #testi {
+        display: flex;
+    }
+
+    #testi-cover,
+    #testi2-cover,
+    #testi3-cover {
+        width: 200px;
+        height: 200px;
+    }
+
+/*Footer*/
+.footer-logo {
     display: flex;
     justify-content: center;
-    width: 100%;
-      
+    text-align: center;
+    align-items: center;
 }
 
-#bschoco, #bsube, #bscrinckles {
+#footer-name {
+    width: 20%;
+    margin: 10px;
+
+}
+
+#footer-address {
+    width: 20%;
+    /*border: 1px solid #000000;*/
+    font-size: smaller;
     margin: 10px;
 }
 
-.bsphoto {
-    height: 200px;
-    width: 200px;
+#footer-social {
+    width: 20%;
+    /*border: 1px solid #000000;*/
+    font-size: 160%;
+    display: block;
+    justify-content: space-between;
+    margin: 10px;
 }
-#testi {
+
+#social-networks {
     display: flex;
-    }
-
-
-
-/* Media query: larger screen (992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-        font-weight: bold;
-    }
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    
 }
 
-/*Media query: smaller screen (max of 940px) */
-@media screen and (max-width: 940px) {
-    #footer-name {
-        display: none;
+    /* Media query: larger screen (992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+            font-weight: bold;
+        }
+
+        #testi-cover,
+        #testi2-cover,
+        #testi3-cover {
+            width: 75vw;
+            height: 75vw;
+        }
+
     }
 
-    #footer-address {
-        display: none;
-    }
-
-    #footer-social {
-        width: 100%;
-    }
-
-    #social-networks {
-        display: flex;
-        justify-content: space-evenly;
-    }
-}
+   /* Media query: smaller screen (768px and below) */
+   @media screen and (max-width: 768px) {
+    #footer-name, #footer-address {
+            display: none;
+          
+        }
+    
+   }
