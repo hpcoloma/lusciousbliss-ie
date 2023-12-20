@@ -314,19 +314,20 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: auto;
 }
 
 #footer-name {
     width: 20%;
-    margin: 10px;
-
+    /*margin: 5px;*/
+    
 }
 
 #footer-address {
     width: 20%;
     /*border: 1px solid #000000;*/
-    font-size: smaller;
-    margin: 10px;
+    font-size:small;
+    /*margin: 5px;*/
 }
 
 #footer-social {
@@ -335,7 +336,7 @@ footer {
     font-size: 160%;
     display: block;
     justify-content: space-between;
-    margin: 10px;
+    /*margin: 5px;*/
 }
 
 #social-networks {
