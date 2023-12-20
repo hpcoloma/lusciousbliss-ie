@@ -109,7 +109,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("/assets/images/hero-image.jpg") no-repeat center center/cover;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -176,7 +176,7 @@ main {
 #testi-cover {
     height: 75vw;
     width: 75vw;
-    background: url("/assets/images/testi1.jpg") no-repeat top center/cover;
+    background: url("../images/testi1.jpg") no-repeat top center/cover;
     /*makes the square image circle*/
     border-radius: 50%;
    margin: auto;
@@ -188,7 +188,7 @@ main {
 #testi2-cover {
     height: 75vw;
     width: 75vw;
-    background: url("/assets/images/testi2.jpg") no-repeat top center/cover;
+    background: url("../images/testi2.jpg") no-repeat top center/cover;
     /*makes the square image circle*/
     border-radius: 50%;
     margin: auto;
@@ -200,7 +200,7 @@ main {
 #testi3-cover {
     height: 75vw;
     width: 75vw;
-    background: url("/assets/images/couple-testi3.jpg") no-repeat top center/cover;
+    background: url("../images/couple-testi3.jpg") no-repeat top center/cover;
     /*makes the square image circle*/
     border-radius: 50%;
     margin: auto;
