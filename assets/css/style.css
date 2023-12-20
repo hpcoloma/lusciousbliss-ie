@@ -115,8 +115,8 @@ main {
 
 #cover-text {
     /* RGB values set for opacity*/
-    background-color: rgb(46,24,52, 0.8);
-    font-size: 135%; 
+    background-color: rgb(46, 24, 52, 0.8);
+    font-size: 135%;
     position: absolute;
     bottom: 40px;
     width: 85%;
@@ -125,19 +125,102 @@ main {
     padding-right: 5px;
 }
 
-#cover-text >h2, #cover-text > h3, #cover-text >p {
-    color: #F5f5f5;  
+#cover-text>h2,
+#cover-text>h3,
+#cover-text>p {
+    color: #F5f5f5;
 }
+
 #cover-text>p {
     font-size: 80%;
 }
 
 /*Best Sellers*/
-#best-seller {
-    width: 90%;
-    background-color: pink;
-    margin-top: 100px auto;
+#best-seller,
+#testimonials {
+    width: 100%;
+    background-color: rgb(46, 24, 52);
+    margin-top: 200px auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    color: #F5f5f5;
 }
+
+#best-seller>h2,
+#testimonials>h2 {
+    color: #F5f5f5;
+}
+
+.choco {
+    height: 250px;
+    width: 250px;
+    border: 5px solid #f5f5f5;
+    margin-top: 2px;
+}
+
+#best-products {
+    display: block;
+    padding-top: 5px;
+
+}
+
+#best-seller>div {
+    /*border: 1px solid #000000;
+    margin: 5px 0;*/
+}
+#testimonials {
+    display:block;
+    align-content: center;
+}
+#testi-cover {
+    height: 75vw;
+    width: 75vw;
+    background: url("/assets/images/testi1.jpg") no-repeat top center/cover;
+    /*makes the square image circle*/
+    border-radius: 50%;
+   margin: auto;
+    max-height: 300px;
+    max-width: 300px;
+
+}
+
+#testi2-cover {
+    height: 75vw;
+    width: 75vw;
+    background: url("/assets/images/testi2.jpg") no-repeat top center/cover;
+    /*makes the square image circle*/
+    border-radius: 50%;
+    margin: auto;
+    max-height: 300px;
+    max-width: 300px;
+
+}
+
+#testi3-cover {
+    height: 75vw;
+    width: 75vw;
+    background: url("/assets/images/couple-testi3.jpg") no-repeat top center/cover;
+    /*makes the square image circle*/
+    border-radius: 50%;
+    margin: auto;
+    max-height: 300px;
+    max-width: 300px;
+
+}
+
+
+/*
+#testi-text {
+    display: none;
+}
+
+#testi-cover:hover + #texti-text {
+    display: block;
+}
+
+*/
 
 
 
