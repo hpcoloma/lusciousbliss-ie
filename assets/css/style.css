@@ -137,8 +137,18 @@ main {
 }
 
 /*Best Sellers*/
-#best-seller,
 #testimonials {
+    width: 100%;
+    margin-top: 100px auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: #F5f5f5;
+    background-color: rgb(46, 24, 52, 0.95)
+}
+
+#best-seller {
     width: 100%;
     background-color: rgb(46, 24, 52);
     margin-top: 100px auto;
@@ -173,6 +183,8 @@ main {
 #testimonials {
     display: block;
     align-content: center;
+    
+    
 
 }
 
@@ -183,8 +195,8 @@ main {
     /*makes the square image circle*/
     border-radius: 50%;
     margin: auto;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 100px;
+    max-width: 100px;
 
 }
 
@@ -195,8 +207,8 @@ main {
     /*makes the square image circle*/
     border-radius: 50%;
     margin: auto;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 100px;
+        max-width: 100px;
 
 }
 
@@ -207,8 +219,8 @@ main {
     /*makes the square image circle*/
     border-radius: 50%;
     margin: auto;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 100px;
+    max-width: 100px;
 
 }
 /*Footer*/
@@ -227,7 +239,10 @@ main {
  }
 
 
-/*Footer*/
+#footer-name, #footer-address {
+    display: none;
+}
+
 footer {
     background-color: #cc9901;
 }
@@ -293,8 +308,8 @@ footer {
     }
 
     .bsphoto {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
     }
 
     #testi {
@@ -314,20 +329,22 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: auto;
+    
 }
 
 #footer-name {
+    display: block;
     width: 20%;
-    /*margin: 5px;*/
+    margin-right: 10px;
     
 }
 
 #footer-address {
+    display: block;
     width: 20%;
     /*border: 1px solid #000000;*/
     font-size:small;
-    /*margin: 5px;*/
+    margin-right: 10px;
 }
 
 #footer-social {
@@ -364,11 +381,11 @@ footer {
 
     }
 
-   /* Media query: smaller screen (768px and below) */
+   /* Media query: smaller screen (768px and below) 
    @media screen and (max-width: 768px) {
     #footer-name, #footer-address {
             display: none;
           
-        }
+        }*/
     
    }
