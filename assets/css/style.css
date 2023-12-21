@@ -104,7 +104,7 @@ main {
 
     /*make main element to take up any surplus space*/
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 /* Hero Section */
@@ -140,23 +140,10 @@ main {
 }
 
 /*Best Sellers*/
-#testimonials {
-    width: 100%;
-    margin-top: 100px auto;
-    display: block;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    color: #F5f5f5;
-    background-color: rgb(46, 24, 52, 0.95)
-}
-
 #best-seller {
     width: 100%;
     background-color: rgb(46, 24, 52);
-    margin-top: 100px auto;
     display: block;
-    align-items: center;
     text-align: center;
     padding: 10px;
     color: #F5f5f5;
@@ -174,13 +161,30 @@ main {
     margin-top: 2px;
 }
 
-#best-products,
+#best-products {
+    display: block;
+    flex-wrap: wrap;
+}
+
+
 #testi {
     display: block;
     padding-top: 5px;
 
 
 }
+
+#testimonials {
+    width: 100%;
+    margin-top: 100px auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: #F5f5f5;
+    background-color: rgb(46, 24, 52, 0.95)
+}
+
 
 #testi p {
     font-weight: bold;
@@ -228,10 +232,40 @@ main {
 }
 
 /*Products - Main Content*/
-.div-container {
-    height: 200px;
-    width: 200px;
+#products-header {
+    text-align: center;
+}
 
+.prod-container div {
+    background-color: pink;
+    padding: 10px;
+    /*flex-basis: 400px;
+    flex-grow: 1;*/
+  
+}
+
+.prod-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    
+
+    /*display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 100%;*/
+   
+}
+
+.prod-container img {
+    height: 90%;
+    width: 100%;
+}
+
+.prod-container p {
+    display: none;
 }
 
 
@@ -308,8 +342,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        /*width: 100%;*/
-
+        
     }
 
     #bschoco,
@@ -340,6 +373,17 @@ footer {
         margin: 10px;
     }
 
+    /*Products*/
+    .prod-container img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .prod-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
 
     /*Footer*/
@@ -400,11 +444,5 @@ footer {
 
     }
 
-    /* Media query: smaller screen (768px and below) 
-   @media screen and (max-width: 768px) {
-    #footer-name, #footer-address {
-            display: none;
-          
-        }*/
-
+ 
 }
