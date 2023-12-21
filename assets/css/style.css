@@ -228,9 +228,9 @@ main {
 }
 
 /*Products - Main Content*/
-#prodphoto {
-    height: 25vw;
-    width: 25vw;
+.div-container {
+    height: 200px;
+    width: 200px;
 
 }
 
