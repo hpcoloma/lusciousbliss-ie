@@ -362,7 +362,7 @@ footer {
     font-size: 160%;
     display: block;
     justify-content: space-between;
-    /*margin: 5px;*/
+    margin-right: 10px;
 }
 
 #social-networks {
@@ -390,6 +390,7 @@ footer {
 
     }
 
+<<<<<<< HEAD
    /* Media query: smaller screen (768px and below) 
    @media screen and (max-width: 768px) {
     #footer-name, #footer-address {
@@ -398,3 +399,18 @@ footer {
         }*/
     
    }
+=======
+    #footer-address {
+        display: none;
+    }
+
+    #footer-social {
+        width: 100%;
+    }
+
+    #social-networks {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+>>>>>>> refs/remotes/origin/main
