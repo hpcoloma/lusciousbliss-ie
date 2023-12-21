@@ -165,8 +165,8 @@ main {
 }
 
 .bsphoto {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border: 5px solid #f5f5f5;
     margin-top: 2px;
 }
@@ -179,13 +179,13 @@ main {
 
 }
 
+#testi p {
+    font-weight: bold;
+}
 
 #testimonials {
     display: block;
     align-content: center;
-    
-    
-
 }
 
 #testi-cover {
@@ -195,8 +195,8 @@ main {
     /*makes the square image circle*/
     border-radius: 50%;
     margin: auto;
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 150px;
+    max-width: 150px;
 
 }
 
@@ -207,8 +207,8 @@ main {
     /*makes the square image circle*/
     border-radius: 50%;
     margin: auto;
-    max-height: 100px;
-        max-width: 100px;
+    max-height: 150px;
+        max-width: 150px;
 
 }
 
@@ -219,8 +219,8 @@ main {
     /*makes the square image circle*/
     border-radius: 50%;
     margin: auto;
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 150px;
+    max-width: 150px;
 
 }
 
@@ -305,8 +305,9 @@ footer {
     /*Best Seller*/
     #best-products {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
+        /*width: 100%;*/
 
     }
 
@@ -328,9 +329,15 @@ footer {
     #testi-cover,
     #testi2-cover,
     #testi3-cover {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
+
+    #testi1, #testi2, #testi3 {
+        margin: 10px;
+    }
+
+
 
 /*Footer*/
 .footer-logo {
@@ -390,7 +397,6 @@ footer {
 
     }
 
-<<<<<<< HEAD
    /* Media query: smaller screen (768px and below) 
    @media screen and (max-width: 768px) {
     #footer-name, #footer-address {
@@ -399,18 +405,3 @@ footer {
         }*/
     
    }
-=======
-    #footer-address {
-        display: none;
-    }
-
-    #footer-social {
-        width: 100%;
-    }
-
-    #social-networks {
-        display: flex;
-        justify-content: space-evenly;
-    }
-}
->>>>>>> refs/remotes/origin/main
