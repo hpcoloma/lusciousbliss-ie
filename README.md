@@ -18,6 +18,12 @@
     - **Fonts**
     - **Imagery Used**
 - **Features**
+- **Technology Used**
+    - **Language Used**
+- **Testing**
+    - **Code Validation**
+    - **Resposiveness**
+
 
 
     
@@ -69,15 +75,56 @@ Some of the images I used were downloaded from the web (list of websites below) 
     - [www.shugarysweets.com](www.shugarysweets.com)
 
 
-## Features
-- Header
+## **Features**
+- Header - Contains three menu items. Navigation bar should be available on all pages.
+![Header](assets/readme/header.PNG)
 
-- The aim is to build the website on the mobile platform layout.
-- I will also ensure to make it responsive on all device sizes.
+- Hero Image & Text - The hero image showcase the top best seller product and the text best describe our products.
+![Hero Image](assets/readme/Heroimage.PNG)
+
+- Best Seller section - show the top 3 products that customers always order.
+![Best Seller](assets/readme/bestseller.PNG)
+
+- Testimonials section - these are endorsement from happy and returning customers, who validate the worth of our product.
+![Testimonials](assets/readme/testimonials.PNG)
+
+- Footer section - shows contact information and links to our social media pages
+![Footer](assets/readme/footer.PNG)
+
+- Products page - gives you all the products we bake.
+![Products](assets/readme/products.PNG)
+
+- Contact Us page provides you a form to complete for you to place the order or ask a questions. You can also see more contact information.
+![Contact Us](assets/readme/contactus.PNG)
+
+- The aim is to makew the website responsive to mobile devices first and the style for all other devices will be added to make it responsive to all devices.
 - Photos will be reduced in size but not in quality for faster loading.
-- Navigation bar should be available on all pages.
-- Footer will show links to all our social media pages and other contact information.
 - All sections are responsive to different device size.
+
+## **Technology Used**
+- **Language**
+    - HTML
+    - CSS3
+- **Frameworks, Libararies & Programs**
+    - Photoshop was used to create the logo and wireframes.
+    - [Google Fonts](www.googlefonts.com) to import PT Serif to the stylesheet.
+    - [Font Awesome](www.fontawesome) for footer and contact information icons.
+    - [GitHub](www.github) for hosting project codes, maintaining repository.
+    - [Codeanywhere](www.codeanywhere.com) I initially used this to build my project but find it very slow a lot of times, it takes time for the updates to take effect and longer time to load my workspace.
+    - [Gitpod](www.gitpod) I switch to Gitpod and find it easier to use and faster.
+    - [Favicon](www.favicon.io) to create favicon for my title.
+    - [Am I Responsive](https://amiresponsive.co.uk/) to show the image of the website on different device size.
+
+## **Testing**
+- **Code Validation**
+    - [W3C Validator](https://validator.w3.org/#validate_by_input) for HTML validation.
+        - Home Page
+    - [W3c Validator](https://jigsaw.w3.org/css-validator/) for CSS validation.
+- **Contrast Grid**
+    - [Eightshapes Grid Contrast](https://contrast-grid.eightshapes.com/) for checking the colour contrast of my colour palette.
+- **Responsiveness**
+- **Manual Testing**
+
 
 
  
