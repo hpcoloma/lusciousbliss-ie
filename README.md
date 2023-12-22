@@ -1,6 +1,6 @@
 # **Luscious Bliss IE**
 
-![Am I responsive screenshot](assets/Readme/AmIresponsive.PNG)
+![Am I responsive screenshot](assets/readme/AmIresponsive.PNG)
 
 # Table of Contents
 
