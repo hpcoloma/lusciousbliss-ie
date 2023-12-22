@@ -184,7 +184,6 @@ main {
 
 #testimonials {
     width: 100%;
-    margin-top: 100px auto;
     display: block;
     align-items: center;
     text-align: center;
@@ -443,8 +442,10 @@ footer {
 
     #testi {
         display: flex;
+        justify-content: center;
+        text-wrap: wrap;
     }
-
+    
     #testi-cover,
     #testi2-cover,
     #testi3-cover {
@@ -456,6 +457,7 @@ footer {
     #testi2,
     #testi3 {
         margin: 10px;
+        width: 25%;
     }
 
     /*Products*/
