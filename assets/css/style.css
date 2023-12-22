@@ -443,7 +443,6 @@ footer {
     #testi {
         display: flex;
         justify-content: center;
-        text-wrap: wrap;
     }
     
     #testi-cover,
