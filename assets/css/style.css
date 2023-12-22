@@ -237,10 +237,10 @@ main {
 }
 
 .prod-container div {
-    background-color: pink;
-    padding: 10px;
-    /*flex-basis: 400px;
-    flex-grow: 1;*/
+    padding: 15px;
+    max-width: 280px;
+    margin-bottom: 10px;
+    height:max-content;
   
 }
 
@@ -249,23 +249,33 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     text-align: center;
-    
+}
 
-    /*display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    height: 100%;*/
-   
+#products {
+    background-color: #2e1834;
+    color: #f5f5f5;
+    text-align: center;
+
+}
+
+#products >h2 {
+    color: #f5f5f5;
 }
 
 .prod-container img {
-    height: 90%;
+    height: 100%;
     width: 100%;
+    max-height: 300px;
+    max-width: 250px;
+    min-height: 190px;
+    border: 1px solid #F5f5f5;
+  
 }
 
 .prod-container p {
-    display: none;
+    text-align: center;
+    font-size: small;
+
 }
 
 
@@ -326,7 +336,7 @@ footer {
 
     /*Main Content*/
     main {
-        margin-top: 112px;
+        margin-top: 148px;
     }
 
     /*Hero*/
@@ -375,8 +385,8 @@ footer {
 
     /*Products*/
     .prod-container img {
-        max-height: 300px;
-        max-width: 300px;
+        height: 300px;
+        width: 250px;
     }
 
     .prod-container {
@@ -385,6 +395,11 @@ footer {
         justify-content: center;
     }
 
+    .prod-container div {
+        padding: 15px;
+        max-width: 280px;
+        margin-bottom: 10px;
+        
 
     /*Footer*/
     .footer-logo {
