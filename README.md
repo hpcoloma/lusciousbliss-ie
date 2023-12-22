@@ -119,7 +119,13 @@ Some of the images I used were downloaded from the web (list of websites below) 
 - **Code Validation**
     - [W3C Validator](https://validator.w3.org/#validate_by_input) for HTML validation.
         - Home Page
+        ![Home Page](assets/readme/HomeChecker.PNG)
+        - Products
+        ![Products](assets/readme/ProdCheck.PNG)
+        - Contact Us
+        ![Contact Us](assets/readme/contactCheck.PNG)
     - [W3c Validator](https://jigsaw.w3.org/css-validator/) for CSS validation.
+        [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhpcoloma.github.io%2Flusciousbliss-ie&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - **Contrast Grid**
     - [Eightshapes Grid Contrast](https://contrast-grid.eightshapes.com/) for checking the colour contrast of my colour palette.
 - **Responsiveness**
