@@ -34,7 +34,7 @@
 
     
 
-## **Project Introduction** <a name="introduction"></a>
+## **Project Introduction**<a name="introduction"></a>
 ### Luscious Bliss IE
 Luscious Bliss IE is an inspired baking business. Baking with love since 2021 from our small kitchen to your dining room, on all your occasion, satisfying your cravings while giving you a luxurious taste. 
 ### [Link to live project](https://hpcoloma.github.io/lusciousbliss-ie/)
