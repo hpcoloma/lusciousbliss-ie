@@ -105,6 +105,10 @@ main {
     /*make main element to take up any surplus space*/
     flex: 1 0 auto;
     margin-top: 120px;
+
+    /*enable flex properties for child elements*/
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero Section */
@@ -268,7 +272,7 @@ main {
     max-height: 300px;
     max-width: 250px;
     min-height: 190px;
-    border: 1px solid #F5f5f5;
+    border: 5px solid #F5f5f5;
   
 }
 
@@ -277,6 +281,22 @@ main {
     font-size: small;
 
 }
+
+/*Contac Us Page*/
+#contactus {
+    background: url("/assets/images/contactus.jpg");
+    background-size: cover;
+    background-position: 75%;
+}
+
+#contactus h1, #contactus p {
+    text-align: center;
+}
+
+.check-box span {
+    margin-right: 5px;
+}
+
 
 
 /*Footer*/
@@ -291,16 +311,16 @@ main {
     font-size: 200%;
 }
 
+.footer-logo {
+    display: block;
+    text-align: center;
+    margin: 5px;
 
-#footer-name,
-#footer-address {
-    display: none;
 }
 
 footer {
     background-color: #cc9901;
 }
-
 
 
 
@@ -399,49 +419,48 @@ footer {
         padding: 15px;
         max-width: 280px;
         margin-bottom: 10px;
-        
-
-    /*Footer*/
-    .footer-logo {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-
     }
+/*Footer*/
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 
-    #footer-name {
-        display: block;
-        width: 20%;
-        margin-right: 10px;
+}
 
-    }
+#footer-name {
+    display: block;
+    width: 20%;
+    margin-right: 10px;
 
-    #footer-address {
-        display: block;
-        width: 20%;
-        /*border: 1px solid #000000;*/
-        font-size: small;
-        margin-right: 10px;
-    }
+}
 
-    #footer-social {
-        width: 20%;
-        /*border: 1px solid #000000;*/
-        font-size: 160%;
-        display: block;
-        justify-content: space-between;
-        margin-right: 10px;
-    }
+#footer-address {
+    display: block;
+    width: 20%;
+    font-size: small;
+    margin-right: 10px;
+}
 
-    #social-networks {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        list-style-type: none;
-        text-align: center;
+#footer-social {
+    width: 20%;
+    font-size: 160%;
+    display: block;
+    justify-content: space-between;
+    margin-right: 10px;
+}
 
-    }
+#social-networks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+   
 
     /* Media query: larger screen (992px and up) */
     @media screen and (min-width: 992px) {
@@ -460,4 +479,3 @@ footer {
     }
 
  
-}
