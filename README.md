@@ -7,7 +7,6 @@
 - **Project Introduction**
     - **Luscious Bliss IE**
     - **Link to live project**
-    - **Objectives**
 - **Planning Stage**
     - **User Goals**
     - **Site Owner Goals**
@@ -20,9 +19,13 @@
 - **Features**
 - **Technology Used**
     - **Language Used**
+    - **Frameworks, Libararies & Programs**
 - **Testing**
     - **Code Validation**
-    - **Resposiveness**
+    - **Contrast Grid**
+    - **Testing Performance**
+    - **Further Testing**
+- **Deployment**
 
 
 
@@ -64,16 +67,7 @@ I also checked the colour combination contrast on
 I wanted a plain Serif text that is easy to read. PT Serif is a transitional serif typeface with humanistic terminals. It is designed for use together with PT Sans, and is harmonized across metrics, proportions, weights and design. Fonts were downloaded from [Google Fonts](https://fonts.google.com/) 
 
 ### Imagery Used
-Some of the images I used were downloaded from the web (list of websites below) and some are my own original photos. They were resized in [www.tinypng.com](www.tinypng.com) for easy loading of the website. I created the logo to match the color scheme I chose for my website.
-
-- **Websites source for images**
-    - [www.pexels.com](www.pexels.com)
-    - [www.pinimg.com](www.pinimg.com)
-    - [www.bing.com](www.bing.com)
-    - [www.tasteofhome.com](www.tasteofhome.com)
-    - [www.carlsbadcravings.com](www.carlsbadcravings.com)
-    - [www.shugarysweets.com](www.shugarysweets.com)
-
+Some of the images I used were downloaded from the web (list of websites bon the credits section) and some are my own original photos. They were resized for easy loading of the website. I created the logo to match the color scheme I chose for my website.
 
 ## **Features**
 - Header - Contains three menu items. Navigation bar should be available on all pages.
@@ -128,8 +122,63 @@ Some of the images I used were downloaded from the web (list of websites below) 
         [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhpcoloma.github.io%2Flusciousbliss-ie&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - **Contrast Grid**
     - [Eightshapes Grid Contrast](https://contrast-grid.eightshapes.com/) for checking the colour contrast of my colour palette.
-- **Responsiveness**
-- **Manual Testing**
+- **Testing Performance**
+    - Mobile
+        - Home 
+        ![Home Test Performance](assets/readme/HomeTest.PNG)
+        - Products
+        ![Products Test Performance](assets/readme/HomeTest.PNG)
+        - Contact Us
+        ![Contact Us Test Performance](assets/readme/HomeTest.PNG)
+    
+    - Desktop
+        - Home 
+        ![Home Test Performance](assets/readme/HomeDtest.PNG)
+        - Products
+        ![Products Test Performance](assets/readme/ProdDtest.PNG)
+        - Contact Us
+        ![Contact Us Test Performance](assets/readme/ContDtest.PNG)
+
+- **Further Testing**
+    - The website was tested on Google Chrome, Safari and Microsoft Edge browsers.
+    - The following mobile devices were also used to view the website
+
+## **Future Enhancements**
+- The intention is to build an e-commerce website where odering is possible. 
+- Make online payment option available.
+- Click and collect orders.
+- Integrate with delivery channels such as Deliveroo, Uber Eats etc.
+
+## **Deployment**
+
+The project was deployed to Github pages. Below are the steps used to deploy the site.
+
+1. Once all changes were pushed from Gitpod. I then go to Github.
+2. On Github site's repository, under the Codes tab, lookk for the Deployments section on rigth side of the page.
+3. Click + XX deployments under Deployments.
+4. Once on teh active deployments page, click the link under github-pages. 
+5. Page will open the site.
+
+## **Acknowledgements**
+
+This project will not be live today without the help and support of the following people:
+
+1. Arnold Ambida - my husband, who looks after my 3 children while I do this course.
+2. Matt Boden - my mentor who gave lots of tips and advise during our first meeting.
+3. Towbie - for recommending Gitpod. It saved me more time!
+
+## **Credits**
+
+- **Websites source for images**
+    - [www.pexels.com](www.pexels.com)
+    - [www.pinimg.com](www.pinimg.com)
+    - [www.bing.com](www.bing.com)
+    - [www.tasteofhome.com](www.tasteofhome.com)
+    - [www.carlsbadcravings.com](www.carlsbadcravings.com)
+    - [www.shugarysweets.com](www.shugarysweets.com)
+- **Image resizing**
+    - [www.tinypng.com](www.tinypng.com)
+
 
 
 
