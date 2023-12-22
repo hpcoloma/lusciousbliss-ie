@@ -7,27 +7,28 @@
 - [**Project Introduction**](#introduction)
     - **Luscious Bliss IE**
     - **Link to live project**
-- **Planning Stage**
+- [**Planning Stage**](#planning)
     - **User Goals**
     - **Site Owner Goals**
-- **Design**
+- [**Design**](#design)
     - **Wireframes**
         - **Desktop Wireframes**
     - **Colour Scheme**
     - **Fonts**
     - **Imagery Used**
-- **Features**
-- **Technology Used**
+- [**Features**](#features)
+- [**Technology Used**](#technology)
     - **Language Used**
     - **Frameworks, Libararies & Programs**
-- **Testing**
+- [**Testing**](#testing)
     - **Code Validation**
     - **Contrast Grid**
     - **Testing Performance**
     - **Further Testing**
-- **Deployment**
-- **Acknowledgements**
-- **Credits**
+- [**Future Enhancements**](#enhancements)
+- [**Deployment**](#deployment)
+- [**Acknowledgements**](#acknowledgement)
+- [**Credits**](#credits)
 
 
 
@@ -38,7 +39,7 @@
 Luscious Bliss IE is an inspired baking business. Baking with love since 2021 from our small kitchen to your dining room, on all your occasion, satisfying your cravings while giving you a luxurious taste. 
 ### [Link to live project](https://hpcoloma.github.io/lusciousbliss-ie/)
 ### Objectives
-## **Planning Stage**
+## **Planning Stage**<a name="planning"></a>
 ### User Goals
 - I want to know what the site is about?
 - What products do you offer?
@@ -48,7 +49,7 @@ Luscious Bliss IE is an inspired baking business. Baking with love since 2021 fr
 - To showcase our existing products to both new and returning customers
 - To create an online presence
 - To order products by using the contact us form or via our social network pages
-## **Design**
+## **Design**<a name="design"></a>
 ### Wireframes
 - **Desktop Wireframes**
     - [Home](assets/readme/IndexWF.jpg)
@@ -71,7 +72,7 @@ I wanted a plain Serif text that is easy to read. PT Serif is a transitional ser
 ### Imagery Used
 Some of the images I used were downloaded from the web (list of websites bon the credits section) and some are my own original photos. They were resized for easy loading of the website. I created the logo to match the color scheme I chose for my website.
 
-## **Features**
+## **Features**<a name="features"></a>
 - Header - Contains three menu items. Navigation bar should be available on all pages.
 ![Header](assets/readme/header.PNG)
 
@@ -97,7 +98,7 @@ Some of the images I used were downloaded from the web (list of websites bon the
 - Photos will be reduced in size but not in quality for faster loading.
 - All sections are responsive to different device size.
 
-## **Technology Used**
+## **Technology Used**<a name="technology"></a>
 - **Language**
     - HTML
     - CSS3
@@ -111,7 +112,7 @@ Some of the images I used were downloaded from the web (list of websites bon the
     - [Favicon](www.favicon.io) to create favicon for my title.
     - [Am I Responsive](https://amiresponsive.co.uk/) to show the image of the website on different device size.
 
-## **Testing**
+## **Testing**<a name="testing"></a>
 - **Code Validation**
     - [W3C Validator](https://validator.w3.org/#validate_by_input) for HTML validation.
         - Home Page
@@ -145,13 +146,13 @@ Some of the images I used were downloaded from the web (list of websites bon the
     - The website was tested on Google Chrome, Safari and Microsoft Edge browsers.
     - The following mobile devices were also used to view the website
 
-## **Future Enhancements**
+## **Future Enhancements**<a name="enhancements"></a>
 - The intention is to build an e-commerce website where odering is possible. 
 - Make online payment option available.
 - Click and collect orders.
 - Integrate with delivery channels such as Deliveroo, Uber Eats etc.
 
-## **Deployment**
+## **Deployment**<a name="deployments"></a>
 
 The project was deployed to Github pages. Below are the steps used to deploy the site.
 
@@ -161,7 +162,7 @@ The project was deployed to Github pages. Below are the steps used to deploy the
 4. Once on teh active deployments page, click the link under github-pages. 
 5. Page will open the site.
 
-## **Acknowledgements**
+## **Acknowledgements**<a name="acknowledgement"></a>
 
 This project will not be live today without the help and support of the following people:
 
@@ -169,7 +170,7 @@ This project will not be live today without the help and support of the followin
 2. Matt Boden - my mentor who gave lots of tips and advise during our first meeting.
 3. Towbie - for recommending Gitpod. It saved me more time!
 
-## **Credits**
+## **Credits**<a name="credits"></a>
 
 - **Websites source for images**
     - [www.pexels.com](www.pexels.com)
