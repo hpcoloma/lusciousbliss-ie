@@ -63,12 +63,17 @@
     <!--Main Content-->
     <main>
       <section id="contactus">
+        <div id="contact-text">
+        <h2>Contact Information</h2>
         <br>
-        <h1>Contact Information</h1>
+        <p>Do you have questions or order? Use the form below.</p>
+        <br>
         <p><i class="fa-solid fa-address-book"></i> Luscious Bliss IE, Cobh, Co. Cork, Ireland</p>
         <p><i class="fa-solid fa-envelope"></i> lusciousblissie@gmail.com</p>
         <p><i class="fa-solid fa-mobile"></i>  +353 83 100 00 00</p>
-        <br>
+        
+      </div>
+      <br>
         <form id="contactus-form" method="POST" action="https://formdump.codeinstitute.net">
           <label for="fname">First Name: </label>
           <input type="text" id="fname" name="first_name" placeholder="Holly" required>
@@ -80,26 +85,29 @@
           <input type="tel" id="cnumber" name="contact_number" placeholder="+353 000 00 00" required>
           <br>
           <label for="email">E-Mail: </label>
-          <input type="e,ail" id="email" name="email_address" placeholder="example@domain.com" required>
+          <input type="email" id="email" name="email_address" placeholder="example@domain.com" required>
           <br>
-          <div class="check-box">
+          <div class="radio-buttons">
                 <div>
                 <span class="location-label">Location: </span> 
-                <span><input type="checkbox" name="location" id="county" value="cork" required>
+                <span><input type="radio" name="location" id="county" value="cork" required>
                 <label for="county">Cork</label></span>
-                <span><input type="checkbox" name="location" id="county" value="outside" required>
+                <span><input type="radio" name="location" id="county" value="outside" required>
                 <label for="county">Outside Cork</label></span>
               </div>
           </div>
+          <br>
           <label for="message">Message: </label><br>
           <textarea id="message" name="message" placeholder="Write your message here."></textarea>
           <br>
-          <input type="submit" value="Submit">
+          <button type="submit" class="submit-button">Submit</button>
      
         </form>
+    <br>
       </section>
+    
     </main>
-
+    
     <!--Footer-->
     <footer>
       <div class="footer-logo">
